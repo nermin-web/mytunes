@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+    color: #fff;
+    line-height: 1.6;
+    height: 100%;
+    font-size: 19px;
+    text-align: center;
+}
+
+.mob-nav {
+    display: none;
+    text-align: left;
+}
+
+.mob-nav i {
+    padding-left: 7px ;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 5px 10px;
+}
+
+.landing {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.my-tunes {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+p {
+    /* margin: 0 150px; */
+}
+
+.btn {
+    padding: 18px 20px;
+    color: white;
+    font-size: 15px;
+    margin: 30px;
+    border: none;
+}
+
+.red {
+    background-color: #b61111;
+}
+
+.blue {
+    background-color: #103063;
+}
+
+img {
+    padding: 15px 15px;
+    width: 80%;
+}
+
+.collection {
+    background-color: white;
+    color: black;
+}
+
+.description {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    padding: 150px 0;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.cards {
+    display: flex;
+    background-color: white;
+    color: black;
+}
+
+.card-pic img {
+    width: 60%;
+}
+.card-pic, .card-text {
+    width: 50%;
+    text-align: right;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 0;
+}
+
+.gift-text {
+    border-bottom: 1px solid #a1a1a1;
+    width: 80%;
+}
+
+.gift-text, .redeem {
+    margin: 0;
+    padding: 8px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 40px 0;
+}
+
+.bottom-nav div {
+    width: 16%;
+    padding: 0 1%;
+    font-size: 14px;
+    color: #a1a1a1;
+}
+
+h3  {
+    font-size: 16px;
+    color: white;
+    border-bottom: 1px solid #a1a1a1;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 540px) {
+    .container, .subtitle {
+        padding: 0 15px;
+    }
+
+    .mob-nav {
+        display: block;
+        color: white;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .card-pic, .card-text, .gift-text {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .bottom-nav {
+        display: none;
+    }
+}
